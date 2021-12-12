@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration-line: underline;
+}
+
+#container {
+    border: 0.1rem solid black;
+    margin: 10rem auto;
+    width: 80%;
+    height: 60rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countDownClass {
+    border: 0.1rem solid black;
+    width: 25%;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen {
+    border: 0.1rem solid black;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+button {
+    width: 30%;
+    height: 10%;
+}
+
+#newCountDown > button {
+    width: 80%;
+}
+
+.time {
+    border: 0.1rem solid black;
+    width: 20%;
+}
+
+input[type=date] {
+    width: 80%;
+    text-align: center;
+}

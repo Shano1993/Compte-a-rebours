@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Compte à rebours</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Compte à rebours</h1>
+
+    <div id="container">
+
+        <div id="listCountDown" class="countDownClass">
+
+            <label for="date"></label><input type="date" id="date">
+
+            <button id="start">Start</button>
+
+            <button id="stop">Stop</button>
+
+            <div id="screen">
+
+                <div class="time">
+
+                    <span id="timeDay">00</span>
+                    <p>Day</p>
+
+                </div>
+
+                <div class="time">
+
+                    <span id="timeHour">00</span>
+                    <p>Hour</p>
+
+                </div>
+
+                <div class="time">
+
+                    <span id="timeMinute">00</span>
+                    <p>Min</p>
+
+                </div>
+
+                <div class="time">
+
+                    <span id="timeSecond">00</span>
+                    <p>Sec</p>
+
+                </div>
+            </div>
+
+            <div id="newCountDown">
+
+                <button id="new">New Count Down</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
