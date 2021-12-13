@@ -4,7 +4,6 @@ let timeHour = document.getElementById('timeHour');
 let timeMinute = document.getElementById('timeMinute');
 let timeSecond = document.getElementById('timeSecond');
 
-
 document.getElementById('start').addEventListener("click", function () {
     function countDown() {
         const instant = new Date();
@@ -36,87 +35,6 @@ document.getElementById('start').addEventListener("click", function () {
     return countDown();
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-let countDown = function (day, hour, minute, second) {
-
-    this.day = day;
-    this.hour = hour;
-    this.minute = minute;
-    this.second = second;
-
-    this.time = function (){
-        setInterval(function () {
-
-        }, 1000);
-    }
-}
-
-let user = new countDown(dayUser.value, hourUser.value, minuteUser.value, secondUser.value);
-
-document.getElementById('newCountDown').addEventListener("click", function () {
-    timeDay.innerHTML = dayUser.value;
-    timeHour.innerHTML = hourUser.value;
-    timeMinute.innerHTML = minuteUser.value;
-    timeSecond.innerHTML = secondUser.value;
-})
-
-
-document.getElementById('start').addEventListener("click", function () {
-    dayUser.style.display = 'none';
-    hourUser.style.display = 'none';
-    minuteUser.style.display = 'none';
-    secondUser.style.display = 'none';
-    user.time();
-})
-
- */
 
 
 
